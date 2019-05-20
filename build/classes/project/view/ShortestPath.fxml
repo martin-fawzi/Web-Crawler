@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="800.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.view.ShortestPathController">
+
+    <children>
+        <Label layoutX="21.0" layoutY="37.0" text="URL1">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="URLTf" layoutX="85.0" layoutY="35.0" prefHeight="38.0" prefWidth="686.0" />
+        <TextField fx:id="URLTf2" layoutX="85.0" layoutY="83.0" prefHeight="38.0" prefWidth="686.0" />
+        <TextArea fx:id="URLTa" editable="false" layoutX="26.0" layoutY="136.0" prefHeight="360.0" prefWidth="744.0" />
+        <Button layoutX="600.0" layoutY="513.0" mnemonicParsing="false" onAction="#Pathbtn" prefHeight="35.0" prefWidth="171.0" text="Find Shortest Path" />     
+        <Button layoutX="26.0" layoutY="513.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="35.0" prefWidth="64.0" text="&lt;&lt; " />
+        <Label layoutX="21.0" layoutY="85.0" text="URL2">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

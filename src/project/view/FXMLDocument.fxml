@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="800.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.view.FXMLDocumentController">
+   <children>
+      <TextField fx:id="URLTf" layoutX="140.0" layoutY="242.0" prefHeight="38.0" prefWidth="520.0" />
+      <Label layoutX="140.0" layoutY="207.0" prefHeight="38.0" prefWidth="93.0" text="Enter URL">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="crawlingType" layoutX="140.0" layoutY="293.0" prefHeight="31.0" prefWidth="416.0" promptText="Choose Type Of Crawling" />
+      <Button layoutX="567.0" layoutY="293.0" mnemonicParsing="false" onAction="#CrawlButtonAction" prefHeight="31.0" prefWidth="93.0" text="Crawl" />
+   </children>
+</AnchorPane>

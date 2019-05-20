@@ -1,0 +1,94 @@
+.root{
+    -fx-aligment: center;
+    -fx-background-color:		#202020	;  
+}
+
+.text-field {
+    -fx-background-color: #383838 ;
+    -fx-background-insets: 0,5,5,0 ;
+    -fx-background-radius: 12 ;
+    -fx-text-fill: #FFD700;
+    -fx-font-weight : bold ;
+    -fx-font-size : 16 ;
+}
+.button{
+    -fx-background-color:  #000000;
+    -fx-font-weight:bold;
+    -fx-background-radius: 22;
+    -fx-font-size:18;
+    -fx-text-fill: #FFD700;
+}
+.button:hover{
+    -fx-font-weight:bold;
+    -fx-background-color: #383838;
+    -fx-background-radius: 22;
+    -fx-font-size:18;
+    -fx-text-fill: #FFD700;
+    -fx-border-color: #000000;
+    -fx-border-radius: 20;
+    -fx-border-weigth:3;
+}
+.button:pressed{
+
+    -fx-font-weight:bold;
+    -fx-background-color:#000000;
+    -fx-background-radius: 22;
+    -fx-font-size:18;
+    -fx-text-fill: #FFD700;
+
+    -fx-border-radius: 20;
+    -fx-border-weigth:3;
+
+}
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFD700;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.combo-box {
+    -fx-background-color: 	#383838 ;
+    -fx-background-radius: 12;
+    -fx-padding: 0,5,5,0;
+
+}
+.combo-box .cell:selected {
+    -fx-text-fill: #FFD700;
+    -fx-font-weight: bold ;
+    -fx-prompt-text-fill: #FFD700;
+}
+.combo-box-popup > .list-view {
+    -fx-border-style: solid;
+    -fx-border-width:1 ;
+    -fx-font-weight: bold;
+
+    -fx-border-color: black;
+    -fx-background-color:#383838 ;
+    -fx-background-insets: 0, 1;
+}
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell {
+    -fx-padding: 1 10;
+    -fx-background: #383838;
+    -fx-background-radius: 50;
+}
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:hover,
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:selected:hover {
+    -fx-background-color:gray;
+}
+
+.text-area{
+    -fx-background-color: #383838;
+    -fx-background-radius: 12;
+    -fx-border-radius: 15;
+    -fx-text-fill: 	#FFFFFF;
+    -fx-font-weight : bold;
+}
+ .text-area .content{
+      -fx-background-color: #383838;
+  }
+.combo-box-base > .arrow-button > .arrow {
+    -fx-background-color: #FFD700;
+    -fx-padding: 4 4;
+
+}
+

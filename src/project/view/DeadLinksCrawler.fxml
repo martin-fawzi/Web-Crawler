@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="800.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.view.DeadLinksCrawlerController">
+
+   <children>
+      <Label layoutX="26.0" layoutY="37.0" text="URL">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="URLTf" layoutX="85.0" layoutY="35.0" prefHeight="38.0" prefWidth="686.0" />
+      <TextArea fx:id="URLTa" editable="false" layoutX="26.0" layoutY="93.0" prefHeight="403.0" prefWidth="744.0" />     
+      <Button layoutX="26.0" layoutY="513.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="35.0" prefWidth="64.0" text="&lt;&lt; " />
+   </children>
+</AnchorPane>
